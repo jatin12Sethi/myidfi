@@ -1,8 +1,12 @@
 {
   "functions": {
-    "main.py": {
+    "api/main.py": {
       "runtime": "python3.8",
-      "maxDuration": 10
+      "includeFiles": ["main.py", "requirements.txt"],
+      "environment": {
+        "MODULE_NAME": "main",
+        "APP_NAME": "app"
+      }
     }
   }
 }
