@@ -18,9 +18,9 @@ app.add_middleware(
 #os.environ["OPENAI_API_KEY"] = "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"
 application = App()
 application.add(("What is myidfi", "myIDFi makes getting a new mortgage simple and easy"), data_type="qna_pair")
-#application.add(("Where do I go to loging to Realtor", "http://localhost:3000/signin?ROLE=REALTOR"), data_type="qna_pair")
-#application.add(("Where do I go to loging to Lender", "http://localhost:3000/signin?ROLE=LENDER"), data_type="qna_pair")
-#application.add(("Where do I go to loging to Customer", "http://localhost:3000/signin?ROLE=CUSTOMER"), data_type="qna_pair")
+application.add(("Where do I go to login to Realtor", "http://localhost:3000/signin?ROLE=REALTOR"), data_type="qna_pair")
+application.add(("Where do I go to login to Lender", "http://localhost:3000/signin?ROLE=LENDER"), data_type="qna_pair")
+application.add(("Where do I go to login to Customer", "http://localhost:3000/signin?ROLE=CUSTOMER"), data_type="qna_pair")
 application.add(("Where do I go to the Website", "https://www.eddiequiroz.com/"), data_type="qna_pair")
 application.add(("Where do I go to the About Us", "https://www.eddiequiroz.com/about-us/"), data_type="qna_pair")
 application.add(("Where do I go to the Blog", "https://www.eddiequiroz.com/blog/"), data_type="qna_pair")
